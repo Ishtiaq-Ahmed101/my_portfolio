@@ -9,7 +9,7 @@ const Hero = () => {
     <div className='flex flex-row justify-center '>
       <div className='flex flex-col text-center'>
       <h1 className='text-xl md:text-3xl tracking-[.2rem]'>Hey there!</h1>
-      <h1 className=' text-[3rem] md:text-[6rem] font-bold bg-gradient-to-tr from-bg_primary to-bg_white inline-block text-transparent bg-clip-text '>I&lsquo;m Ishtiaq Ahmed</h1>
+      <h1  style={{ WebkitBackgroundClip: "text",}} className=' text-[3rem] md:text-[6rem] font-bold bg-gradient-to-tr from-bg_primary to-bg_white inline-block text-transparent bg-clip-text '>I&lsquo;m Ishtiaq Ahmed</h1>
       <h1 className='text-xl md:text-3xl'>Frontend-Developer </h1>
       <div className='self-center mt-3'>
       <SocialLinks/>
