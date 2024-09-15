@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { easeInOut, motion } from 'framer-motion'
+import { CoolMode } from "@/components/magicui/cool-mode";
 
 
 const Introduction = () => {
@@ -28,7 +29,10 @@ const Introduction = () => {
           <div className='flex flex-col justify-center gap-5'>
             <h1 className=' text-xl md:text-3xl font-bold self-center'>About Me</h1>
             <p className='md:w-[400px] text-center'>Hello, I&apos;m Ishtiaq Ahmed, an experienced Frontend Engineer passionate about creating exceptional user interfaces. I specialize in React, React-Native, and Next.js, focusing on engineering high-quality frontend solutions to enhance user experiences. Welcome to my personal portfolio!</p>
+            <CoolMode options={{particleCount: 200}}>
             <a href='/cv/ishtiaqCV.pdf' className='bg-bg_background border border-bg_primary4 w-fit px-4 py-5 self-center rounded-full transition-all hover:bg-bg_primary4 hover:-translate-y-2 hover:shadow-md hover:shadow-bg_white' > Dwonload CV</a>
+            </CoolMode>
+          
           </div>
           </div>
           <div className='p-1 border-2 border-bg_primary rounded-full'>
